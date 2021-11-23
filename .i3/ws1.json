@@ -1,0 +1,116 @@
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "marks": [],
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 5,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 519,
+                       "width": 950,
+                       "x": 107,
+                       "y": 57
+                    },
+                    "marks": [],
+                    "name": "Telegram",
+                    "percent": 1,
+                    "swallows": [
+                       {
+                         "class": "^TelegramDesktop$",
+                         "instance": "^Telegram$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 5,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 504,
+               "width": 1890,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "",
+            "percent": 0.5,
+            "swallows": [
+               {
+                 "class": "^URxvt$",
+                 "instance": "^urxvt$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 5,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 606,
+               "width": 1031,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "HDD",
+            "percent": 0.5,
+            "swallows": [
+               {
+                 "class": "^Org\\.gnome\\.Nautilus$",
+                 "instance": "^org\\.gnome\\.Nautilus$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 5,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 504,
+               "width": 1890,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "",
+            "percent": 0.5,
+            "swallows": [
+               {
+                 "class": "^URxvt$",
+                 "instance": "^urxvt$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
